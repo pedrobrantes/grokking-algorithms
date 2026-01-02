@@ -1,0 +1,19 @@
+[project]
+name = "grokking-algorithms"
+version = "0.1.0"
+description = "Study notes and implementations from Grokking Algorithms book."
+authors = [
+    {name = "Pedro Brantes", email = "contact@brantes.simplelogin.com"},
+]
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib",
+    "seaborn",
+    "numpy",
+    "pytest",
+    "jupyter",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
